@@ -25,8 +25,11 @@ export const EXPERT_DATA = {
 export const IMAGES = {
   hero: "https://i.imgur.com/qblMe7Q.jpeg",
   authority1: "https://i.imgur.com/VNdY25I.jpeg",
-  authority2: "https://i.imgur.com/DK5v3y2.jpeg",
+  authority2: "https://i.imgur.com/DK5v3_2.jpeg", // Corrigido underline no ID caso necessário, mas mantendo o padrão do link fornecido
   results: [
+    { url: "https://i.imgur.com/NekQU4b.jpeg", alt: "Resultado Transformação 1" },
+    { url: "https://i.imgur.com/moNAXIE.jpeg", alt: "Resultado Transformação 2" },
+    { url: "https://i.imgur.com/eDg17UA.jpeg", alt: "Resultado Transformação 3" },
     { url: "https://i.imgur.com/cDAkjKs.jpeg", alt: "Resultado de Facetas 1" },
     { url: "https://i.imgur.com/1o306m3.jpeg", alt: "Resultado de Facetas 2" },
     { url: "https://i.imgur.com/xdOSaBq.jpeg", alt: "Reabilitação Oral 1" },
@@ -39,22 +42,22 @@ export const IMAGES = {
 export const TRUST_CARDS = [
   {
     title: "Avaliação Honestidade",
-    desc: "Nada de procedimentos desnecessários. Foco total na sua saúde real.",
+    desc: "Nada de procedimentos desnecessários. Foco total na sua saúde real e longevidade do sorriso.",
     icon: <ShieldCheck className="w-6 h-6 text-emerald-600" />
   },
   {
     title: "Atendimento Direto",
-    desc: "Você será atendido por mim do início ao fim do processo.",
+    desc: "Você será atendido por mim do início ao fim. Nada de trocar de dentista no meio do tratamento.",
     icon: <UserCheck className="w-6 h-6 text-emerald-600" />
   },
   {
     title: "Conforto Máximo",
-    desc: "Técnicas modernas para que sua experiência seja indolor e tranquila.",
+    desc: "Técnicas modernas e ambiente acolhedor para que sua experiência seja totalmente indolor.",
     icon: <Heart className="w-6 h-6 text-emerald-600" />
   },
   {
     title: "Resultados Naturais",
-    desc: "Facetas e próteses que respeitam a harmonia do seu rosto.",
+    desc: "Facetas e próteses que respeitam a harmonia do seu rosto e a naturalidade dos seus dentes.",
     icon: <Sparkles className="w-6 h-6 text-emerald-600" />
   }
 ];
@@ -63,16 +66,16 @@ export const PROCESS_STEPS = [
   {
     step: "01",
     title: "Clique no Botão",
-    desc: "Você será redirecionado para o meu WhatsApp pessoal."
+    desc: "Você será redirecionado para o meu WhatsApp pessoal para um primeiro contato."
   },
   {
     step: "02",
     title: "Agende seu Horário",
-    desc: "Minha equipe entrará em contato para definir a melhor data."
+    desc: "Minha equipe entrará em contato para definir o melhor dia e hora para você."
   },
   {
     step: "03",
     title: "Avaliação Gratuita",
-    desc: "Virei ao seu encontro para planejar seu novo sorriso."
+    desc: "Faremos um diagnóstico completo e planejaremos seu novo sorriso sem custo inicial."
   }
 ];
